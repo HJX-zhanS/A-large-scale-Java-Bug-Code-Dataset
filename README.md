@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3a438674029eb56d43f7ed4192485ddd21e7bc1c23fe43437a83e2607d06b636
-size 39
+# A Large Scale Java Bug Code Dataset
+
+## Download
+`git clone https://github.com/HJX-zhanS/A-large-scale-Java-Bug-Code-Dataset.git`
+
+## Dataset Structure
+
+- Column 1: Data item indices
+- Column 2: Original code (defective or clean)
+- Column 3: If this item is not empty, it means that the corresponding code in Column 3 is defective.
+- Column 4: Data labels. 0->clean, 1->defective
